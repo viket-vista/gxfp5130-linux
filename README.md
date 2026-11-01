@@ -1,3 +1,13 @@
+> **Archived — kept for reference.** This repository is no longer maintained.
+> The same hardware is supported by the actively maintained
+> [Metrohan/gxfp5130-linux](https://github.com/Metrohan/gxfp5130-linux)
+> (DKMS kernel module, libfprint fork, PAM packaging) and by
+> [Void755/gxfpmoc](https://github.com/Void755/gxfpmoc) (userspace stack this
+> repository vendored). The reverse-engineering notes in
+> `linux/docs/REVERSE-ENGINEERING.md` (eSPI wrapper layout, TX/RX offsets,
+> GPIO/ACPI resources, verified firmware `GF_GCC_EC_20068`) remain valid and
+> were used to validate the alternative implementations.
+
 # gxfp5130-linux
 
 Linux support for the **Goodix GXFP5130** fingerprint sensor found in Huawei
